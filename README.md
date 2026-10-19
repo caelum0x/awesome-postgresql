@@ -33,7 +33,7 @@ A curated list of awesome PostgreSQL tools, scripts, slides, and short examples.
 - [Bemi](https://github.com/BemiHQ/bemi) - Automatic data change tracking for PostgreSQL.
 - [1bench](https://1bench.dev/postgresql) - Desktop client for PostgreSQL with pgvector support, plus two dozen other engines.
 - [RowShield](https://rowshield.dev/) - Checks a Supabase (PostgREST) deployment from the outside for tables and storage that anonymous callers can read; free read-only probe, paid scheduled RLS policy and drift checks.
-- [Scribase](https://scribase.com/) - Self-hosted control plane for Supabase + Neon: provision, pool, and manage your own Postgres projects without the hosted-vendor lock-in, open source.
+- [Scribase](https://scribase.com/) - Hosted Postgres backend for AI coding agents, with Auth, Storage, Realtime, Functions and database branching, plus an MCP server where writes need a confirmation and schema changes must pass an RLS check; Supabase-client compatible, flat $25/project, and fully exportable.
 - [SolidPing](https://github.com/fclairamb/solidping) - Self-hosted uptime monitoring with a PostgreSQL check that connects, runs a query (default `SELECT 1`) and alerts on failure.
 - [OLake](https://github.com/datazip-inc/olake) - Open-source PostgreSQL to Apache Iceberg replication using logical replication (CDC), full refresh and incremental sync. Written in Go.
 - [dbdiff](https://github.com/rekurt/dbdiff) - Compare PostgreSQL schemas, detect drift, and generate migration SQL for review, including offline SQL-file and snapshot comparisons.
